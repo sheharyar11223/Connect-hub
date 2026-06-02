@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ConnectHub</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="sidebar">
+
+        <div class="logo">
+            ConnectHub
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search users...">
+        </div>
+
+        <div class="user-list">
+
+            <div class="user active">
+                <img src="https://i.pravatar.cc/50?img=1">
+                <span>Ahmed</span>
+            </div>
+
+            <div class="user">
+                <img src="https://i.pravatar.cc/50?img=2">
+                <span>Ali</span>
+            </div>
+
+            <div class="user">
+                <img src="https://i.pravatar.cc/50?img=3">
+                <span>Hamza</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="chat-section">
+
+        <div class="chat-header">
+
+            <div class="profile">
+                <img src="https://i.pravatar.cc/50?img=1">
+                <h3>Ahmed</h3>
+            </div>
+
+            <div class="call-buttons">
+                <button id="audioCall">📞</button>
+                <button id="videoCall">🎥</button>
+            </div>
+
+        </div>
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="message received">
+                Hello 👋
+            </div>
+
+            <div class="message sent">
+                Hi! How are you?
+            </div>
+
+        </div>
+
+        <div class="message-input">
+
+            <input type="text" id="messageInput" placeholder="Type a message...">
+
+            <button id="sendBtn">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
